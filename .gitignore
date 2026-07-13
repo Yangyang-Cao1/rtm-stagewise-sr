@@ -1,0 +1,48 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Local datasets and field observations
+datasets_crop/
+data/
+external_data/
+artifacts/
+dataset_onepatch*/
+*.tif
+*.tiff
+
+# Generated arrays, models, and serialized objects
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+
+# Training and evaluation outputs
+runs*/
+outputs/
+results/
+checkpoints/
+logs/
+_smoke*/
+*.log
+*.lock
+*.out
+nohup.out
+
+# Local RTM/SRF inputs are stored under artifacts/.
