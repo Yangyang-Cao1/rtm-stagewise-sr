@@ -129,12 +129,6 @@ Run selected dataset directories only:
 python -m rtm_stagewise_sr.batch dataset_a dataset_b
 ```
 
-## Before publishing
+## License
 
-```bash
-./scripts/check_public_release.sh
-python -m compileall -q rtm_stagewise_sr
-```
-
-No open-source license has been selected. Add a `LICENSE` file before making
-the repository public if reuse and redistribution should be permitted.
+This project is released under the [MIT License](LICENSE).
