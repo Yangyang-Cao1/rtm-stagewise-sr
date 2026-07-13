@@ -15,8 +15,6 @@ experiment results are not included.
 4. Learn wavelength-dependent fusion between baseline and teacher.
 5. Apply light segment-aware spectral smoothing.
 
-See [docs/workflow.md](docs/workflow.md) for the complete method and data
-assumptions.
 
 ## Code layout
 
